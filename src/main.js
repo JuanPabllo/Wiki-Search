@@ -9,7 +9,7 @@ function handleSubmit(e) {
 }
 
 function getResults(query) {
-  const url = `https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&origin=*&srlimit=25&utf8=&format=json&srsearch=${query}`;
+  const url = `https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&origin=*&srlimit=10&utf8=&format=json&srsearch=${query}`;
 
   fetch(url)
     .then((res) => res.json())
