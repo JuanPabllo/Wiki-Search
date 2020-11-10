@@ -23,7 +23,7 @@ body {
 }
 
 .search-container:hover {
-  background-color: rgba(11.4, 11.4, 11.4, 0.7);
+  background-color: rgba(11.4, 11.4, 11.4, 0.9);
 }
 .search-form {
   display: flex;
@@ -35,9 +35,21 @@ body {
 
 .search-form a {
   border-radius: 1.2rem;
+  transition: 0.7s;
+}
+.search-form a:hover {
+  border-radius: 1.5rem;
+  transition: 0.7s;
+  background-color: rgb(149, 170, 170);
 }
 .search-form button {
   border-radius: 1.2rem;
+  transition: 0.7s;
+}
+.search-form button:hover {
+  border-radius: 1.5rem;
+  transition: 0.7s;
+  background-color: rgb(149, 170, 170);
 }
 
 .search-input {
@@ -110,6 +122,8 @@ a {
   align-items: flex-end;
   justify-content: flex-end;
   margin: auto 18px 14px auto;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 768px) {
