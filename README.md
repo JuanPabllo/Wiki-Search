@@ -1,6 +1,6 @@
 # Wikipedia Search Engine
 
-## :bookmark: About the developer
+## 👨‍💻 About the developer
 
 <h4 align="left">
     by <a href="https://www.linkedin.com/in/juanpablodev/" target="_blank">Juan Pablo</a>
